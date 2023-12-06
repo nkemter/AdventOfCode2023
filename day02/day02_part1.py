@@ -1,6 +1,3 @@
-# 12 red cubes, 13 green cubes, and 14 blue cubes
-
-import numpy as np
 sum_green = 0
 sum_red = 0
 sum_blue = 0

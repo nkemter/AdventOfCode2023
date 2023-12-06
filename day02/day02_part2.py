@@ -1,20 +1,9 @@
-import numpy as np
-sum_green = 0
-sum_red = 0
-sum_blue = 0
-sum_id = 0
 sum_power = 0
 
 biggest_green = 0 
 biggest_red = 0
 biggest_blue = 0
 
-power_green = 0
-power_red = 0
-power_blue = 0
-
-
-index = 1
 index_full = 0
 pair = []
 with open('day02_input.txt', 'r') as file:
