@@ -1,4 +1,4 @@
-# Card 1: 41 48 83 86 17 | 83 86  6 31 17  9 48 53 -> 8 punkte -> 1, 2, 4, 8
+# Card 1: 41 48 83 86 17 | 83 86  6 31 17  -> 48 83 86 17 -> 8 punkte -> 1, 2, 4, 8
 # with open('test.txt', 'r') as file:
 with open('day04_input.txt', 'r') as file:
     total_points = 0
@@ -15,7 +15,7 @@ with open('day04_input.txt', 'r') as file:
             index = 0
             mult = 0
             points = 0
-            contained = [a in array[1] for a in array[0]]
+            contained = [a in array[0] for a in array[1]]
             for bool in contained:
                 if bool: 
                     if points == 0:
